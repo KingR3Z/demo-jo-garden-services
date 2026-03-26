@@ -30,8 +30,8 @@ export const client = {
   twitter: "",
 
   // Reviews
-  googleRating: "5.0",
-  reviewCount: "0",
+  googleRating: "5",
+  reviewCount: "10",
 
   // Services
   services: [
@@ -79,9 +79,16 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Mike Wilkinson", rating: 5, text: "James replaced our steps which link the 2 levels of our garden last year and this review is way overdue! He thoughtfully planned, discussed and agreed his approach before starting, …  ", date: "5 years ago" },
+    { name: "Stephen Churley", rating: 5, text: "I decided to ask James for a quote because he says on his website he is 'not easily intimidated by overgrown gardens'. He was completely unfazed by my sloping back garden which has narrow access up 20 steps and was completely swamped by ivy …  ", date: "8 years ago" },
+    { name: "Alger Barrington", rating: 5, text: "James was a pleasure to work with and took our thoughts and implemented them with some handy input. …  ", date: "8 years ago" },
+    { name: "Andrew Flint", rating: 5, text: "James and his team created a garden for us that is a delight and much admired by everyone. He sourced a huge range of plants, prepared and enriched our derelict land for planting, carried out various hard landscaping projects and then …  ", date: "6 years ago" },
+    { name: "Jaimie Robinson", rating: 5, text: "A wonderful service in all ways.  Our garden was completely transformed from a complete disaster which was left by another garden company to an absolutely beautiful new lawn and perfectly re grouted patio.  James is reliable,, courteous and …  ", date: "8 years ago" },
+    { name: "petina julius", rating: 5, text: "I enlisted the services of J.O Garden services to work on a landscaping project for a client of mine. James carried out the brief and showed his knowledge and expertise by offering advice and suggestions that enhanced the overall scheme. …  ", date: "6 years ago" },
+    { name: "HILARY NICHOLSON", rating: 5, text: "James has transformed our garden! He worked with great care and attention to do exactly what we had asked to a very high standard. We are very pleased with the results. We have already asked James to do some further work for us in the summer and woul", date: "5 years ago" },
+    { name: "Gemma Young", rating: 5, text: "James cleared the very overgrown area at the back of our garden. The previous owners had let it go wild and there was a crumbling down shed and greenhouse frame. James cleared the lot and helped us arrange a skip. He worked really hard despite the ra", date: "4 years ago" },
+    { name: "Tahir Din", rating: 5, text: "A great pleasure having James and his team around. All very professional who  had an in depth knowledge & experience. …  ", date: "10 years ago" },
+    { name: "peter terry", rating: 5, text: "J.o Garden Services have done a fantastic job redesigning our front & back garden. …  ", date: "10 years ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
